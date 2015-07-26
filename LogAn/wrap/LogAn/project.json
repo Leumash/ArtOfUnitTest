@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "wrappedProject": "../../LogAn.csproj",
+      "bin": {
+        "assembly": "../../obj/{configuration}/LogAn.exe",
+        "pdb": "../../obj/{configuration}/LogAn.pdb"
+      },
+      "dependencies": {
+        "NUnit": "2.6.4"
+      }
+    }
+  }
+}
